@@ -1,0 +1,15 @@
+[project]
+name = "spell_checker"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Stadnik Andrii <stadnikandriy1@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+language_tool_python = ">=2.5.1,<2.6"
+python = "==3.10"
+tqdm = ">=4.66.2,<4.67"
+pydantic = ">=2.6.3,<2.7"
